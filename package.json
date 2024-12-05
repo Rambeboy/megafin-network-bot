@@ -1,0 +1,37 @@
+{
+  "name": "megafin-network-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "megafin-network-auto-register",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rambeboy/megafin-network-bot.git"
+  },
+  "keywords": [
+    "megafin",
+    "bot",
+    "network",
+    "rambeboy"
+  ],
+  "author": "Rambeboy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rambeboy/megafin-network-bot/issues"
+  },
+  "homepage": "https://github.com/Rambeboy/megafin-network-bot#readme",
+  "dependencies": {
+    "@2captcha/captcha-solver": "^1.3.0",
+    "@antiadmin/anticaptchaofficial": "^1.0.49",
+    "chalk": "^5.3.0",
+    "crypto": "^1.0.1",
+    "ethereumjs-util": "^7.1.5",
+    "fs": "^0.0.1-security",
+    "https-proxy-agent": "^7.0.5",
+    "node-fetch": "^3.3.2",
+    "readline": "^1.3.0"
+  }
+}
